@@ -1,0 +1,13 @@
+cd  C:\xampp\mysql\bin
+mysql -u root
+SHOW DATABASES;
+CREATE DATABASE testdb;
+SHOW CREATE DATABASE testdb;
+USE testdb;
+
+mysql -u root testdb
+select * from calculator;
+
+DROP TABLE calculator ;
+CREATE TABLE calculator (result VARCHAR(20));
+DELETE FROM calculator;
