@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 cd  C:\xampp\mysql\bin
 mysql -u root
 SHOW DATABASES;
@@ -11,18 +10,3 @@ select * from calculator;
 
 DROP TABLE calculator ;
 CREATE TABLE calculator (result VARCHAR(20));
-=======
-cd  C:\xampp\mysql\bin
-mysql -u root
-SHOW DATABASES;
-CREATE DATABASE testdb;
-SHOW CREATE DATABASE testdb;
-USE testdb;
-
-mysql -u root testdb
-select * from calculator;
-
-DROP TABLE calculator ;
-CREATE TABLE calculator (result VARCHAR(20));
->>>>>>> 96159fe420395f8694295526240c17b56b49fb4b
-DELETE FROM calculator;
